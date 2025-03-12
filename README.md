@@ -32,7 +32,8 @@ The goals of this document are to describe how the project is going to be implem
 
 ## 3. Class Diagrams
 
-![class diagram.jpg](uploads/6a030c1ffad0b4766d5b6bfe81ae086c/class_diagram.jpg)
+![image](https://github.com/user-attachments/assets/71d33439-1957-4b3e-9e9f-3a0a66f5f7f0)
+
 
 **UI Interface:** this abstract class will represent a screen for the game. it includes the size of the screen, displays the elements of a screen, and reads user input.
 
