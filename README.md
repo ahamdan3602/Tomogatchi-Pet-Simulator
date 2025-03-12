@@ -42,7 +42,7 @@ The goals of this document are to describe how the project is going to be implem
 
 **GameInventory:** This class represent the inventory of the user for one save file. It will display the inventory and have methods to use items and add items and will save the inventory upon the user's exit.
 
-## 4. User Interface Mockup: https://balsamiq.cloud/snbuiqy/pt1xrvq
+## 4. User Interface Mockup
 
 Our user interface was created on a set of design principles:
 
