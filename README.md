@@ -72,14 +72,13 @@ Our user interface was created on a set of design principles:
 
 ### Main Menu
 
-### ![image.png](uploads/fcae1830e6fbeb5984fdfb4bb8310ea9/image.png){width="815" height="554"}
+![image](https://github.com/user-attachments/assets/c8f1cc9e-364a-420c-914d-1c1ea574c348)
 
-* Allows user to access![eventnotifications1](https://github.com/user-attachments/assets/d413d965-5e06-4c62-81b1-224e5138593a)
- new game creation, load previous game (selected by drop down menu), exit game, access to parental controls screen, access to instructions screen.
+* Allows user to access new game creation, load previous game (selected by drop down menu), exit game, access to parental controls screen, access to instructions screen.
 
 ### New Game/Pet Selection
 
-![image.png](){width="810" height="551"}
+![image](https://github.com/user-attachments/assets/71f09c9b-ac66-46e1-9c94-ed0cbeb4e15b)
 
 * Displays details and stats about each animal, allows the user to write their pet name, select animal type and save new game data. This button will return the user to the main page.
 
@@ -87,31 +86,31 @@ Our user interface was created on a set of design principles:
 
 ### Game Play
 
-![image.png](uploads/b71b06dbb5df19c40654d4cecc8e05d4/image.png){width="817" height="633"}
+![image](https://github.com/user-attachments/assets/26ef4ce7-356f-45be-a477-868d4c67a14a)
 
 * The screen contains a row of buttons in the lower part of the screen that allow sure to do core actions. Two dropdown list inventories contain food and gifts. After selecting a food/gift, the user can give it to their pet by using the feed/gift button. Major stats are displayed in the upper left of the screen. The exit and save game button is located in the upper right side of the screen.
 
 ### Event Notifications
 
-![image](https://github.com/user-attachments/assets/f69685e6-d94b-43b5-978d-16f8009545b7){width="826" height="643"}
+![image](https://github.com/user-attachments/assets/e9244117-9c82-47e3-8f0c-a82d7fa51291)
 
-![image.png](uploads/edce4ea0de215badb49da4f2ba22c733/image.png){width="818" height="637"}
+![image](https://github.com/user-attachments/assets/e9eaac48-d96c-416c-801b-c148e1f32029)
 
-![image.png](uploads/29282125dd70823f40e81666b0614ce6/image.png){width="827" height="636"}
+![image](https://github.com/user-attachments/assets/7db23244-73e0-4e6b-9de3-fe38d915d8ff)
 
 * The event notification screen (our team’s bonus feature) allows the user to read the event and choose an action to do for the event in the dropdown menu options. This screen pops up randomly every 30 seconds to 1 1min30sec in the game. Once the user selects an action and does it, the result will be displayed. If the answer is correct, the user will be awarded a gift. If not, the user will have some percentage deducted from one of the status bars (health, fullness, sleep, happiness).
 
 ### Instructions
 
-![image.png](uploads/0b5956192a6fdf8ea152cf8f3d43ff93/image.png){width="838" height="568"}
+![image](https://github.com/user-attachments/assets/96464fa4-465d-425b-af68-3f71d8729300)
 
 * The instructions will be shown in a pop-up window from the main menu. It will have a scroll bar and a bunch of text and images explaining how the game is played.
 
 ### Parental Controls
 
-<span dir="">![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPOLNlsBKQyjNE8Bq2U5gve-5VR-8w0M03qyHL1O1oQ3UaY_U7Z3dWRVZUpFTFxMm0dfFDV01uMI5INGtVdU34CUS3DMDEeVhkLVWnmxNuFrn_Vk_ikMfrMARP4F4R58XzYlyf?key=P1zVv2Mzw0rMCu3wENgDSlPH){width="781" height="534"}</span>
+<span dir="">![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPOLNlsBKQyjNE8Bq2U5gve-5VR-8w0M03qyHL1O1oQ3UaY_U7Z3dWRVZUpFTFxMm0dfFDV01uMI5INGtVdU34CUS3DMDEeVhkLVWnmxNuFrn_Vk_ikMfrMARP4F4R58XzYlyf?key=P1zVv2Mzw0rMCu3wENgDSlPH)</span>
 
-<span dir="">![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdvgHwNYe-vpEGIuMo3ouKIqtFtXhdBx2YBCNlar5GDT_U5eZz20zKv6Qc1aXAAcsmp_z-TVoj6gHa3GNSxYOr1cqfRoFCCnIPgPZfWJ6ss6L4IblPOW8p-XrxoKsLnnklebKG0yA?key=P1zVv2Mzw0rMCu3wENgDSlPH){width="779" height="544"}</span>
+<span dir="">![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdvgHwNYe-vpEGIuMo3ouKIqtFtXhdBx2YBCNlar5GDT_U5eZz20zKv6Qc1aXAAcsmp_z-TVoj6gHa3GNSxYOr1cqfRoFCCnIPgPZfWJ6ss6L4IblPOW8p-XrxoKsLnnklebKG0yA?key=P1zVv2Mzw0rMCu3wENgDSlPH)</span>
 
 * The password screen is accessed from the main menu screen. Once the correct hardcoded password is entered, a parent can see play stats, reset play stats, set play time limits, input time limits, and select pets to revive. The user can return to the main menu from both screens by pressing the return button in the top right.
 
@@ -119,25 +118,25 @@ Our user interface was created on a set of design principles:
 
 To store both data on the virtual pets and player for each save slot, we will be using CSV files. The reason for this is that they are convenient to parse through, and there is not a lot of data for us to store. There will be one CSV file that contains data on all three save slots:
 
-![image.png](uploads/4295e1cc0432be20d6a97a7387ae5d96/image.png){width="507" height="65"}
+![image](https://github.com/user-attachments/assets/b533a43c-99c4-4c96-b15c-005826e69d4c)
 
 **Health**, **happiness**, **sleep**, and **fullness** are all ratios out of 100 that represent the pet’s vital statistics. **state** represents the current status of the sprite as a result of their statistics. **sprite** is the type of pet, e.g. goomba, cat, dog, and dragon. **play_time** is the number of minutes the save slot has been played for (convenient for the parent if separate save slots are used for separate players). **num_session** represents the total number of play sessions for that save slot. **score** represents the player(s)’s score for that save slot. **name** represents the name of the virtual pet. The average play time per session can be derived from play_time and num_session, so there is no need to store it in the CSV file.
 
 In order to use the random events, they will be stored in a JSON file. The reason for this is that there are a lot of events and they can be classified into different types based on the type of pet they apply to (general, cat, dog, goomba, dragon). A JSON file easily allows the program to get the events from one of these categories in order to select one for the user. The JSON file will look something like this:
 
-![image.png](uploads/c9e27bea0f457da90cb2a27642ad9fae/image.png){width="343" height="338"}
+![image](https://github.com/user-attachments/assets/d12c0de1-2abd-41e5-8ac4-060d60d3c059)
 
 A [random number generator](https://www.w3schools.com/java/java_howto_random_number.asp) will be used to select each event. We will be using the Jackson library in order to use JSON in Java.
 
 To keep track of the inventories in each of the save slots, we will be using a JSON file. This is because it allows us to easily access the specific amounts for each item for the save slot in use. It is also more organized than a CSV file. The JSON file will look something like this:
 
-![image.png](uploads/f06624683704e02bd8780d7977ac55d3/image.png){width="343" height="286"}
+![image](https://github.com/user-attachments/assets/b685a1f0-d135-459b-ac82-9fc62c799fdc)
 
 We will be using the Jackson library in order to use JSON in Java.
 
 To store data for the parent, we will be using a CSV file. Again, the reason for this is that they are convenient to parse through, and there is not a lot of data for us to store. The CSV file will contain one line of data:
 
-![image.png](uploads/2f4ea60ac60ef0217f2b70078d517aa6/image.png){width="462" height="45"}
+![image](https://github.com/user-attachments/assets/c9242767-d360-4111-931e-7d27d073f13d)
 
 **pass** is the password of the parent, and it is used to verify what the password the parent enters on the parental controls screen. **limit_start** represents the starting time of the play time limit for all players. In this example, it is 7 PM. **limit_end** represents the ending time of the play time limit for all players. In this example, it is 8 AM.
 
@@ -254,274 +253,3 @@ Overall, the design aims to meet the project requirements while ensuring a robus
 | VSCode | Visual Studio Code |
 | IDE | Integrated Design Environment - Where coding will be done |
 
-## 9. Meeting Logs
-
-### Attendance - Jan 23rd, 2025
-
-* [x] Abdul
-* [ ] Logan
-* [ ] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### Time and Location
-
-**Date:** 01-23-2025
-
-**Time:** 3:30pm - 4:30pm
-
-**Location:** Discord call
-
-#### Topics Covered
-
-* Team Contract
-  * addressed meetings, work norms, and work division
-* Briefly discussed project specifications
-
-#### Action Items
-
-Created and completed the team contract
-
-#### Homework
-
-Watch Gitlab tutorial and go through project specifications page
-
-### Attendance - Jan 30th, 2025
-
-* [x] Abdul
-* [x] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### Time and Location
-
-**Date:** 01-30-2025
-
-**Time:** 4:30pm - 5:30pm
-
-**Location:** Discord call
-
-#### Topics Covered
-
-* Meeting Time Adjustments
-  * Potentially move meetings to 5:00pm
-* Main Page
-  * Need someone to do document formatting
-  * Talk about appointing an editor who writes the the main page and summary
-  * Helps coordinate with everyone to add finishing touches.
-* Non-Functional Requirements Documentation
-  * Can be paraphrased from Project Specifications doc. May require some adjustments to wording
-* Split Tasks for Documentation
-  * Intro - (Octavio)
-  * Domain Analysis - (Logan)
-  * Functional Requirements - (Abdul and Shahob)
-  * Non Functional Requirements - (Willie)
-  * Overall Editor - (Abdul)
-* Extra Functional Requirement
-  * Discussed how everyone could come up with an independent idea that we'll discuss during the next meeting
-  * Examples of potential ideas revolving around gameplay:
-    * BitLife
-    * Pokemon
-
-#### Action Items
-
-Split tasks for documentation among team members
-
-#### Homework
-
-* For documentation tasks, have everything done by next meeting
-* Come up with feature ideas
-* Find potential sprites for virtual pets and defining characteristics
-* Watch Gitlab tutorial
-
-### Attendance - Feb 6th, 2025
-
-* [x] Abdul
-* [x] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### Time and Location:
-
-* 5:00 - 6:00 Taylor Library Room 171E
-
-Showcase of tasks assigned from last week
-
-Abdul's Tasks:
-
-* Use cases and activity diagrams for functional requirements
-* Decision made on highest priority use case; user interaction due to main interaction and plays a role in every factor of game-play
-* Assignment of priority levels to other functions
-
-Shahob's Tasks:
-
-* Use cases and activity diagrams for functional requirements
-* Walkthrough of how prerequisites has effects on opening and closing application
-* \-Assignment of priority levels for functions
-
-Logan's Tasks:
-
-* Domain Analysis
-* Note: Logan will take over summary from Abdul
-
-Willie's Tasks:
-
-* Non-functional requirements
-
-Voting of Extra-Functional Requirement: Options:
-
-1. Evolution - Growth bar that grows through interaction. After bar is filled, sprite is updated to a "cooler" version
-
-* Issue raised about number of sprites required
-
-2. BitLife - Random events happen that impacts pet. User may make decisions on how to resolve these events with various consequences that affect future gameplay
-
-* Potential alternative/adjustment: may become trivia questions about pet maintenance
-
-3. Age - Bar that counts time through playtime. Adjustments made to stats according to time
-4. Pokemon - Sprites have a set of abilities that base their "Attack power" on stats
-
-Voting Result: Extra-functional requirement will be BitLife idea
-
-Sprite Types: Dog, Snake, Dragon, Gumba?, Charmander?
-
-Basic Housekeeping on Functions
-
-Homework: Revise google drive on what was accomplished Prepare for project documentation
-
-### **Attendance - Feb 14th, 2025**
-
-* [x] Abdul
-* [ ] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### **Time and Location**
-
-**Date:** 02-14-2025
-
-**Time:** 3:00pm - 4:00pm
-
-**Location:** Discord Call
-
-#### **Topics Covered**
-
-* Design Documentation
-  * Split up Design Documentation work
-    * Main page (Abdul)
-    * Introduction (Shahob)
-    * Class Diagrams (Shahob, Octavio, Abdul, Willie)
-    * Interface Mockup (Abdul, Octavio, Logan)
-    * Patterns (Group)
-    * Summary (Logan)
-  * Discussed a little about group decisions
-    * File Formats (deciding on CSV, JSON or database)
-    * Development environment (IntelliJ or VS Code)
-* Discussed the extra functional requirement (Bit Life) in a little more detail
-
-#### **Homework**
-
-* Research some patterns
-* Catch up on design chapters
-* Review class diagrams
-
-### **Attendance - Feb 27th, 2025**
-
-* [x] Abdul
-* [x] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### **Time and Location**
-
-**Date:** 02-27-2025
-
-**Time:** 4:45pm - 5:45pm
-
-**Location:** Discord Call
-
-#### **Topics Covered**
-
-* Design Documentation
-  * Discussed concerns and went more in depth with task delegation
-  * Finalized some group decisions
-    * File Format: CSV
-    * Development environment: VS Code
-    * Libraries: JavaFX
-
-#### **Homework**
-
-* Research some patterns
-* Catch up on design chapters
-* Continue working on Design Documentation
-
-### **Attendance - Feb 28th, 2025**
-
-* [ ] Abdul
-* [x] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### **Time and Location**
-
-**Date:** 02-28-2025
-
-**Time:** 5:05pm - 5:35pm
-
-**Location:** Discord Call
-
-#### **Topics Covered**
-
-* Design Documentation
-  * Discussed some design patterns
-    * Facade
-    * Singleton
-  * Reassigned some roles for the Design Documentation
-  * Decided on next meeting: next Tuesday in-person
-
-#### **Homework**
-
-* Research some patterns
-* Catch up on design chapters
-* Continue working on Design Documentation
-
-### **Attendance - Mar 4th, 2025**
-
-* [x] Abdul (Online)
-* [x] Logan
-* [x] Octavio
-* [x] Shahob
-* [x] Willie
-
-#### **Time and Location**
-
-**Date:** 03-4-2025
-
-**Time:** 4:30pm - 6:20pm
-
-**Location:** Taylor Library Room A
-
-#### **Topics Covered**
-
-* Design Documentation
-  * Discussed design patterns
-    * Model-View-Control for architecture
-    * Singleton for Pet class
-    * Notification for Event class
-  * Discussed design of various classes related to UI and various ways to implement them
-  * In-person rough sketch of UML completed
-  * Discussed improvements and allocation of remaining responsibilities
-    * Octavio will wireframe remaining screens
-    * Everyone should finish respective Design Documentation tasks before next meeting
-    * Everyone should contribute to completing UML diagrams
-
-#### **Homework**
-
-* UML Diagrams
-* Assigned tasks
-* Finish Design Documentation
