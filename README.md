@@ -1,19 +1,6 @@
 ## Table of Contents
 
-[[_TOC_]]
 
-## 1. Main Page
-
-| Task/Part | Contributors | Description/Notes |
-|-----------|--------------|-------------------|
-| Main Page | Abdul | Design Documentation Wiki Page/Main Page. |
-| Intro | Shahob | Introduction to Design Documentation |
-| Class Diagrams | Shahob, Abdul, Willie | Class Diagram and description of classes |
-| Interface Mockup | Octavio | Wireframes for the screens of the game |
-| File Formats | Shahob | File formats that will be used and how they will be used in the game |
-| Dev Environment | Logan | Describes the IDE, tools, and external libraries that will be used for the project |
-| Patterns | Willie | Descriptions of patterns and how they will be used |
-| Summary | Logan | Summary of document + table of terms |
 
 ## 2. Introduction
 
