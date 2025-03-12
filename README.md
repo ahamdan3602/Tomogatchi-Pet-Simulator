@@ -74,11 +74,12 @@ Our user interface was created on a set of design principles:
 
 ### ![image.png](uploads/fcae1830e6fbeb5984fdfb4bb8310ea9/image.png){width="815" height="554"}
 
-* Allows user to access new game creation, load previous game (selected by drop down menu), exit game, access to parental controls screen, access to instructions screen.
+* Allows user to access![eventnotifications1](https://github.com/user-attachments/assets/d413d965-5e06-4c62-81b1-224e5138593a)
+ new game creation, load previous game (selected by drop down menu), exit game, access to parental controls screen, access to instructions screen.
 
 ### New Game/Pet Selection
 
-![image.png](uploads/480737685ef901a5f4dd529e3771a5c6/image.png){width="810" height="551"}
+![image.png](){width="810" height="551"}
 
 * Displays details and stats about each animal, allows the user to write their pet name, select animal type and save new game data. This button will return the user to the main page.
 
@@ -92,7 +93,7 @@ Our user interface was created on a set of design principles:
 
 ### Event Notifications
 
-![image.png](uploads/4e0d673716f024a43acb58c81b3f50ca/image.png){width="826" height="643"}
+![image](https://github.com/user-attachments/assets/f69685e6-d94b-43b5-978d-16f8009545b7){width="826" height="643"}
 
 ![image.png](uploads/edce4ea0de215badb49da4f2ba22c733/image.png){width="818" height="637"}
 
