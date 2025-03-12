@@ -102,7 +102,7 @@ Our user interface was created on a set of design principles:
 
 ### Instructions
 
-![image.png](uploads/0b5956192a6fdf8ea152cf8f3d43ff93/image.png){width="838" height="568"}
+<img src="uploads/0b5956192a6fdf8ea152cf8f3d43ff93/image.png" width="838" height="568">
 
 * The instructions will be shown in a pop-up window from the main menu. It will have a scroll bar and a bunch of text and images explaining how the game is played.
 
