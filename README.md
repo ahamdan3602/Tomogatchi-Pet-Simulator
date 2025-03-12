@@ -241,3 +241,6 @@ Overall, the design aims to meet the project requirements while ensuring a robus
 | VSCode | Visual Studio Code |
 | IDE | Integrated Design Environment - Where coding will be done |
 
+
+Made By: Abdul, Shahob, Octavio, Logan, Willie
+
