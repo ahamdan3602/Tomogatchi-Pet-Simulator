@@ -14,6 +14,17 @@ import javafx.scene.Scene;
 import java.io.IOException;
 import java.util.HashMap;
 
+/**
+ * Note needs heavy debugging.
+ */ 
+/**
+ *
+ * @author Abdul Hamdan
+ * @author Octavio Diaz
+ *
+ * @version 1.0
+ */
+
 public class NewGameController {
 
     @FXML private ImageView snakeImage, dragonImage, dogImage, goombaImage;
