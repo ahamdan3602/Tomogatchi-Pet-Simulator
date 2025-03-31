@@ -17,6 +17,14 @@ import javafx.scene.control.Alert;
 /**
  * Note needs heavy debugging.
  */ 
+/**
+ * This class controls the gameplay of the pet game
+ *
+ * @author Abdul Hamdan
+ * @author Octavio Diaz
+ *
+ * @version 1.0
+ */
 
 public class MainMenuController {
 
